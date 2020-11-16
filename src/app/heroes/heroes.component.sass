@@ -1,0 +1,42 @@
+@use '../../styles'
+
+h2
+    color: #3D3D3D
+    text-align: left
+
+ul
+    margin-left: 5px
+    li:not(:last-child)
+        margin-bottom: 10px
+
+li
+    list-style: none
+    border-radius: 10px
+    max-width: 30%
+    min-width: 250px
+    color: #A0A0A0
+    display: flex
+    
+
+    span
+        padding: 15px
+
+    .id-span
+        background-color: #5F7D8C
+        text-align: center
+        color: white
+        display: inline-block
+        width: 20px
+        border-radius: 10px 0 0 10px
+
+    .name-span
+        display: inline-block
+        background-color: #EEEEEE
+        padding-left: 5px
+        width: 160px
+        border-radius: 0 10px 10px 0
+    
+li:hover
+    position: relative
+    left: 10px
+    transition: 2s ease-in-out
