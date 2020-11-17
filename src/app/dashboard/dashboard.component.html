@@ -1,0 +1,5 @@
+<h2>{{ title }}</h2>
+
+<article role="dashboard-container">
+    <a *ngFor="let hero of heroes" routerLink='/hero/{{hero.id}}'> {{hero.name}} </a>
+</article>
